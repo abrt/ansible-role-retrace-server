@@ -135,8 +135,9 @@ UseFafPackages = {{ rs_use_faf_packages|int }}
 # Spool directory for FAF packages
 FafLinkDir = {{ faf_spool_dir }}
 
-# Run the retrace in a Mock chroot (default), or a Podman container
-# (mock|podman)
+# Run the retrace in a Mock chroot (default), a Podman container,
+# or on the native machine.
+# (mock|podman|native)
 RetraceEnvironment = {{ rs_retrace_environment }}
 
 # Whether to enable e-mail notifications
