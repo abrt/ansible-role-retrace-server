@@ -21,6 +21,9 @@ AllowInteractive = {{ rs_allow_interactive|int }}
 # Allow X-CoreFileDirectory header
 AllowExternalDir = {{ rs_allow_external_dir|int }}
 
+# Expose metrics for monitoring via Prometheus
+AllowMetrics = {{ rs_allow_metrics|int }}
+
 # Allow to create tasks owned by task manager (security risk)
 AllowTaskManager = {{ rs_allow_task_manager|int }}
 

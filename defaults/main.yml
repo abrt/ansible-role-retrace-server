@@ -15,6 +15,9 @@ rs_allow_interactive: false
 # Allow X-CoreFileDirectory header
 rs_allow_external_dir: false
 
+# Expose metrics for monitoring via Prometheus
+rs_allow_metrics: true
+
 # Allow to create tasks owned by task manager (security risk)
 rs_allow_task_manager: false
 
