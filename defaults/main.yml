@@ -96,6 +96,9 @@ rs_keep_rawhide_latest: 3
 # Repo used to install chroot for vmcores
 rs_kernel_chroot_repo: http://dl.fedoraproject.org/pub/fedora/linux/releases/16/Everything/$ARCH/os/
 
+# Path to the kernel (vmcore) debugger
+rs_kernel_debugger_path: /usr/bin/crash
+
 # Koji directory structure can be used to search for kernel debuginfo
 rs_koji_root: /mnt/koji
 

@@ -176,6 +176,9 @@ BugzillaRegExes = {{ rs_bugzilla_regexes }}
 # Timeout (in seconds) for communication with any process
 ProcessCommunicateTimeout = {{ rs_process_communicate_timeout|int }}
 
+# Path to the kernel (vmcore) debugger
+KernelDebuggerPath = {{ rs_kernel_debugger_path }}
+
 [archhosts]
 {% for a in rs_archhosts %}
 {{ a.arch }} = {{ a.url|default('', true) }}
